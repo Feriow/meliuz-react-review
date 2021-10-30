@@ -37,7 +37,6 @@ module.exports = merge(common, {
   devtool: "inline-source-map",
   devServer: {
     static: "./public",
-    writeToDisk: true,
     historyApiFallback: true,
     port: 3001,
   },
